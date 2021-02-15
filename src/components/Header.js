@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
   MenuText: {
     margin: "0 2% 0 2%",
-    fontSize: "1.3rem",
+    fontSize: "1.1rem",
   },
   Use: {
     border: "solid 1px black",

@@ -8,10 +8,11 @@ const useStyles = makeStyles({
     margin: "4% 2% 4% 20%",
   },
   head: {
-    fontFamily: "Archivo Black",
+    fontFamily: "Archivo Black, sans-serif",
   },
   TextLeft: {
     paddingRight: "4%",
+    width: "54%",
     paddingTop: "5%",
     fontFamily: "'Montserrat', sans-serif",
   },
@@ -19,8 +20,9 @@ const useStyles = makeStyles({
     fontWeight: "bold",
   },
   better: {
-    fontFamily: "'Chonburi', cursive",
-    paddingLeft: "30%",
+    fontFamily: "Archivo Black, sans-serif",
+    marginLeft: "25%",
+    width: "100%",
   },
 });
 
@@ -30,21 +32,24 @@ function Banner() {
     <div>
       <Grid container className={classes.BannerGrid}>
         <Grid item className={classes.TextLeft}>
-          <Typography variant="h1" className={classes.head}>
-            Anywhere <br /> Fitness
+          <Typography variant="h2" className={classes.head}>
+            BigLeague <br /> Socials
           </Typography>
-          <Typography variant="h3" className={classes.TextLeft}>
-            Fitness any time. <br /> Anyplace. <br />{" "}
-            <span className={classes.headSpan}>Anywhere. </span>
+          <Typography variant="h4" className={classes.TextLeft}>
+            Athletes talking about the latest news is entertaining, but
+            sometimes hard to find. <br /> Quickly find your favorite athletes*
+            Twitter. <br /> <span className={classes.headSpan}>Anywhere. </span>
           </Typography>
         </Grid>
         <Grid item>
           <img src="../assets/mac-book.svg" />
         </Grid>
       </Grid>
-      <Typography variant="h3" className={classes.better}>
-        Create a better you from anywhere
-      </Typography>
+      <div className={classes.better}>
+        <Typography variant="h3">
+          Never miss the buzz from an industry shaking event.
+        </Typography>
+      </div>
     </div>
   );
 }
