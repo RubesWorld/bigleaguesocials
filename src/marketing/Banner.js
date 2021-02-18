@@ -38,11 +38,11 @@ function Banner() {
           <Typography variant="h4" className={classes.TextLeft}>
             Athletes talking about the latest news is entertaining, but
             sometimes hard to find. <br /> Quickly find your favorite athletes*
-            Twitter. <br /> <span className={classes.headSpan}>Anywhere. </span>
+            Twitter. <br /> <span className={classes.headSpan}> </span>
           </Typography>
         </Grid>
         <Grid item>
-          <img src="../assets/mac-book.svg" />
+          <img src="" />
         </Grid>
       </Grid>
       <div className={classes.better}>

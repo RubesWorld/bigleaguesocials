@@ -42,6 +42,7 @@ function Header() {
           <Typography className={classes.MenuText}>How It Works</Typography>
           <Typography className={classes.MenuText}>Why Use This?</Typography>
           <Typography className={classes.MenuText}>FAQs</Typography>
+          <Typography className={classes.MenuText}>API</Typography>
           <Typography className={classes.Use}>Use It</Typography>
         </Toolbar>
       </AppBar>
